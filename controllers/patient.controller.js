@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Patient from "../models/patient.model.js";
+import Patient from "../models/Patient.model.js";
 
 // ===============================
 // GET /patients
