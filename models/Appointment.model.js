@@ -21,7 +21,9 @@ const appointmentSchema = new mongoose.Schema(
     },
     type: { type: String },
     roomNumber: { type: String },
-    notes: { type: String }
+    notes: { type: String },
+    startTime: { type: String },
+    endTime: { type: String }
   },
   { timestamps: true }
 );
